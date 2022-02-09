@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="passinho.js" defer></script>
+    <title>Passinho do Romano</title>
+</head>
+<body>
+    <div id="formulario">
+        <form></form>
+        <span>
+            <h3>Insira o texto desejado</h3><input type="text" placeholder="Texto" id="texto">
+        </span>
+        <br>
+
+        <select id="criptografia" onchange="incremento(this)">
+            <option value="">Criptografia Desejada</option>
+            <option value="cesar">Cifra de César</option>
+            <option value="base64">Base 64</option>
+        </select>
+
+        <span><input type="number" name="cesar" id="incremento" placeholder="Insira o incremento" style="visibility: hidden;"></span>
+
+        <br>
+
+        <span>
+            <span>Codificar<input type="radio" name="codificar" value="codificar" id="codificacao" ></span>
+            <span>Decodificar<input type="radio" name="codificar" value="decodificar" id="decodificacao"></span>
+        </span>
+
+        <span>
+            <h3>Texto traduzido:</h3>
+            <p id="traduzido"> </p>
+        </span>
+
+        <button id="enviar">Codificar Mensagem</button>
+
+
+
+
+    </div>
+
+    
+</body>
+</html>

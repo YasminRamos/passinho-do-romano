@@ -1,0 +1,28 @@
+#formulario{
+    background-color: black;
+        color: yellow;
+        width: 600px;
+        padding: 10px;
+        font-size: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.863);
+        padding-top: 20px;
+        margin:auto;
+        
+}
+
+#texto {
+    border-radius: 5px;
+    border-color: yellow;
+    border-style: solid;
+    width: 300px;
+    height: 30px;
+}
+h3{
+text-align: start;
+}
+
+span, select{
+    padding: 5px;
+    margin: 5px;
+}
